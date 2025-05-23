@@ -670,11 +670,11 @@
                  questionTimeout = setTimeout(() => {
                     currentQuestionIndex++;
                     setNextQuestion();
-                }, 2000);
+                }, 6000);
             } else {
                 questionTimeout = setTimeout(() => {
                     showResults();
-                }, 2000);
+                }, 6000);
             }
         }
 
